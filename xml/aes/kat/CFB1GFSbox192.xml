@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<testFile
+  xmlns="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat
+                      https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat.xsd">
+<header>
+  <convertDate>2017-07-23T03:04:23+02:00</convertDate>
+  <originalFilename>CFB1GFSbox192.rsp</originalFilename>
+  <originalSha256>d8151268821703b3bacb8db7a06e581fa446cf20d392a03edc283a1ac037d7ca</originalSha256>
+  <originalSha512>ebc74c183001a4514228665e36bf89abf369392c29c8121d169b9d0669d59d805bde3ec665f46b32024dc2b558f24abb607b0fe026aab327cda52699e0614643</originalSha512>
+  <comment>CAVS 11.1</comment>
+  <comment>Config info for aes_values</comment>
+  <comment>AESVS GFSbox test data for CFB1</comment>
+  <comment>State : Encrypt and Decrypt</comment>
+  <comment>Key Length : 192</comment>
+  <comment>Generated on Fri Apr 22 15:11:42 2011</comment>
+</header>
+
+<body>
+
+  <kat_vector_with_iv>
+    <index>0</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>1b077a6af4b7f98229de786d7516b639</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>00</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>1</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>9c2d8842e5f48f57648205d39a239af1</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>01</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>2</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>bff52510095f518ecca60af4205444bb</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>00</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>3</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>51719783d3185a535bd75adc65071ce1</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>00</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>4</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>26aa49dcfe7629a8901a69a9914e6dfd</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>01</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>5</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>941a4773058224e1ef66d10e0a6ee782</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>00</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>0</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>1b077a6af4b7f98229de786d7516b639</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>00</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>1</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>9c2d8842e5f48f57648205d39a239af1</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>01</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>2</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>bff52510095f518ecca60af4205444bb</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>00</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>3</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>51719783d3185a535bd75adc65071ce1</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>00</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>4</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>26aa49dcfe7629a8901a69a9914e6dfd</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>01</ciphertext>
+  </kat_vector_with_iv>
+
+  <kat_vector_with_iv>
+    <index>5</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <iv>941a4773058224e1ef66d10e0a6ee782</iv>
+    <plaintext>00</plaintext>
+    <ciphertext>00</ciphertext>
+  </kat_vector_with_iv>
+
+</body>
+</testFile>
+
