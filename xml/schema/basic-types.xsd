@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://testvectors.cryptolib.org/xml-schema/v0.1/basic-types"
+xmlns:T="https://testvectors.cryptolib.org/xml-schema/v0.1/basic-types">
+
+  <xs:simpleType name="bitOrder">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="mostSignificantFirst"></xs:enumeration>
+      <xs:enumeration value="leastSignificantFirst"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="hexData">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([\r\n\t\s]*[0-9a-fA-F]{2}[\r\n\t\s]*)*"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="hexBitVector">
+    <xs:simpleContent>
+      <xs:extension base="T:hexData">
+        <xs:attribute
+          name="bitLength"
+          type="xs:unsignedLong"
+        />
+        <xs:attribute
+          name="bitOrder"
+          type="T:bitOrder"
+        />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

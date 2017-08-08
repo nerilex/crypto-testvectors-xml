@@ -2,15 +2,25 @@
 
 #cat <(tr -d '\r \t' | egrep -o '^[^#]*' - | grep '=' | egrep -v '^[[:space:]]*$')
 #exit
-index=""
+
+if [ -n "$2" ]; then
+	schemaName="hash-function_kat.xsd"
+	schemaLocation="$(dirname $(sed 's#[^/]\+/#../#g' <<< "$2"))/xml/schema/$schemaName"
+	exec > $2
+fi
+
+if [ -z "$schemaLocation" ]; then
+	schemaName="hash-function_kat.xsd"
+	schemaLocation="$(dirname $(sed 's#[^/]\+/#../#g' <<< "$1"))/xml/schema/$schemaName"
+fi
 
 cat <<EOF
 <?xml version="1.0"?>
 <testFile
-  xmlns="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat" 
+  xmlns="https://testvectors.cryptolib.org/xml-schema/v0.1/hash-function_kat" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat
-                      https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat.xsd">
+  xsi:schemaLocation="https://testvectors.cryptolib.org/xml-schema/v0.1/hash-function_kat
+                      ${schemaLocation}">
 <header>
 EOF
 
@@ -31,7 +41,9 @@ fi
 
 header_done=0
 
-kat_type="kat_vector_without_iv"
+kat_type="katVector"
+
+index=0
 
 while read LINE; do
 	if [ "$header_done" = "0" ]; then
@@ -50,46 +62,33 @@ while read LINE; do
 #		echo "value: $VALUE"
 #		echo "c: $index"
 		case $KEY in
-			COUNT)
-				index=$VALUE
+			Len)
+				len=$VALUE
 				;;
-			KEY)
-				secret=$VALUE
-				;;
-			IV)
-				iv=$VALUE
-				kat_type="kat_vector_with_iv"
-				;;
-			PLAINTEXT)
+			Msg)
 				if [ $(( ${#VALUE} % 2)) -eq 1 ]; then
-					plaintext=0$VALUE
+					msg=${VALUE}0
 				else
-					plaintext=$VALUE
+					msg=$VALUE
 				fi
 				;;
-			CIPHERTEXT)
+			MD)
 				if [ $(( ${#VALUE} % 2)) -eq 1 ]; then
-					ciphertext=0$VALUE
+				digest=${VALUE}0
 				else
-					ciphertext=$VALUE
+					digest=$VALUE
 				fi
+					printf "  <%s index=\"%d\">\n" $kat_type $index
+					printf "    <%s bitLength=\"%d\" bitOrder=\"%s\" >\n      " message $len mostSignificantFirst
+					sed -e 's/\([[:alnum:]]\{64\}\)/\1\n      /g' -e '/^[[:space:]]*$/ d' <<< "$msg"
+					printf "    </%s>\n" message
+					printf "    <%s>%s</%s>\n" digest $digest digest
+					printf "  </%s>\n\n" $kat_type
+					true $((index++))
 				;;
 			*)
 				;;
 		esac
-		else
-			if [ -n "$index" ]; then
-				printf "  <%s>\n" $kat_type
-				printf "    <%s>%s</%s>\n" index $index index
-				printf "    <%s>%s</%s>\n" key $secret key
-				if [ -n "$iv" ]; then
-					printf "    <%s>%s</%s>\n" iv "$iv" iv
-				fi
-				printf "    <%s>%s</%s>\n" plaintext $plaintext plaintext
-				printf "    <%s>%s</%s>\n" ciphertext $ciphertext ciphertext
-				printf "  </%s>\n\n" $kat_type
-				index=""
-			fi
 		fi
 	fi
 done <  <( tr -d '\r') 

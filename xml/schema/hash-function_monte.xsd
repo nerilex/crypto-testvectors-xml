@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat"
-xmlns:kat="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat"
+targetNamespace="https://testvectors.cryptolib.org/xml-schema/v0.1/hash-function_monte"
+xmlns:monte="https://testvectors.cryptolib.org/xml-schema/v0.1/hash-function_monte"
 xmlns:types="https://testvectors.cryptolib.org/xml-schema/v0.1/basic-types"
 elementFormDefault="qualified">
 
@@ -10,31 +10,26 @@ elementFormDefault="qualified">
   schemaLocation="basic-types.xsd"
 />
 
-  <xs:complexType name="katVectorWithoutIV">
-    <xs:sequence>
-      <xs:element name="index"      type="xs:decimal" minOccurs="0"/>
-      <xs:element name="comment"    type="xs:string" minOccurs="0"/>
-      <xs:element name="algorithm"  type="xs:string" minOccurs="0"/>
-      <xs:element name="key"        type="types:hexBitVector"/>
-      <xs:element name="plaintext"  type="types:hexBitVector"/>
-      <xs:element name="ciphertext" type="types:hexBitVector"/>
-      <xs:element name="result"     type="xs:string" minOccurs="0"/>
-    </xs:sequence>
-    <xs:attribute name="operation"  type="xs:string"/>
+  <xs:complexType name="digest">
+    <xs:simpleContent>
+      <xs:extension base="types:hexData">
+        <xs:attribute
+          name="count"
+          type="xs:unsignedLong"
+        />
+      </xs:extension>
+    </xs:simpleContent>
   </xs:complexType>
 
-  <xs:complexType name="katVectorWithIV">
+  <xs:complexType name="vector">
     <xs:sequence>
-      <xs:element name="index" type="xs:decimal" minOccurs="0"/>
       <xs:element name="comment" type="xs:string" minOccurs="0"/>
       <xs:element name="algorithm" type="xs:string" minOccurs="0"/>
-      <xs:element name="key" type="xs:hexBinary"/>
-      <xs:element name="iv" type="xs:hexBinary"/>
-      <xs:element name="plaintext" type="xs:hexBinary"/>
-      <xs:element name="ciphertext" type="xs:hexBinary"/>
-      <xs:element name="result" type="xs:string" minOccurs="0"/>
+      <xs:element name="seed" type="types:hexBitVector"/>
+      <xs:element name="digest" type="monte:digest" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute name="operation" type="xs:string"/>
+    <xs:attribute name="index" type="xs:decimal"/>
   </xs:complexType>
 
 
@@ -58,8 +53,7 @@ elementFormDefault="qualified">
 <xs:element name="body">
 <xs:complexType>
   <xs:choice>
-    <xs:element name="katVectorWithoutIV" type="kat:katVectorWithoutIV" maxOccurs="unbounded"/>
-    <xs:element name="katVectorWithIV" type="kat:katVectorWithIV" maxOccurs="unbounded"/>
+    <xs:element name="monteVector" type="monte:vector" maxOccurs="unbounded"/>
   </xs:choice>
 </xs:complexType>
 </xs:element>
