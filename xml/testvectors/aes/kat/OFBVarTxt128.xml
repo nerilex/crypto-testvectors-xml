@@ -1,0 +1,2072 @@
+<?xml version="1.0"?>
+<testFile
+  xmlns="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat
+                      ../../../../xml/schema/block-cipher_kat.xsd">
+<header>
+  <convertDate>2017-08-08T10:52:00+02:00</convertDate>
+  <originalFilename>OFBVarTxt128.rsp</originalFilename>
+  <originalSha256>268c28e8eec8d542963c641404bea53ca3956d241e71a4efe1e149a22846ae60</originalSha256>
+  <originalSha512>ef6de91c92853a18ebebbefd33d40e0bc4d8244edaa1fe66e27f769ea2f9a17c6cab9565f1f4231e4d7194ab8822ecb1d9060e5b54983c36364d74d1192df284</originalSha512>
+  <comment>CAVS 11.1</comment>
+  <comment>Config info for aes_values</comment>
+  <comment>AESVS VarTxt test data for OFB</comment>
+  <comment>State : Encrypt and Decrypt</comment>
+  <comment>Key Length : 128</comment>
+  <comment>Generated on Fri Apr 22 15:11:59 2011</comment>
+</header>
+
+<body>
+
+  <katVectorWithIV>
+    <index>0</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>80000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3ad78e726c1ec02b7ebfe92b23d9ec34</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>1</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>c0000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>aae5939c8efdf2f04e60b9fe7117b2c2</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>2</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>e0000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f031d4d74f5dcbf39daaf8ca3af6e527</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>3</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>f0000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>96d9fd5cc4f07441727df0f33e401a36</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>4</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>f8000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>30ccdb044646d7e1f3ccea3dca08b8c0</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>5</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fc000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>16ae4ce5042a67ee8e177b7c587ecc82</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>6</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fe000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b6da0bb11a23855d9c5cb1b4c6412e0a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>7</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ff000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>db4f1aa530967d6732ce4715eb0ee24b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>8</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ff800000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a81738252621dd180a34f3455b4baa2f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>9</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffc00000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>77e2b508db7fd89234caf7939ee5621a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>10</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffe00000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b8499c251f8442ee13f0933b688fcd19</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>11</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fff00000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>965135f8a81f25c9d630b17502f68e53</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>12</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fff80000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8b87145a01ad1c6cede995ea3670454f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>13</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffc0000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8eae3b10a0c8ca6d1d3b0fa61e56b0b2</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>14</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffe0000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>64b4d629810fda6bafdf08f3b0d8d2c5</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>15</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffff0000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d7e5dbd3324595f8fdc7d7c571da6c2a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>16</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffff8000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f3f72375264e167fca9de2c1527d9606</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>17</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffc000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8ee79dd4f401ff9b7ea945d86666c13b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>18</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffe000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>dd35cea2799940b40db3f819cb94c08b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>19</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffff000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>6941cb6b3e08c2b7afa581ebdd607b87</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>20</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffff800000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>2c20f439f6bb097b29b8bd6d99aad799</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>21</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffc00000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>625d01f058e565f77ae86378bd2c49b3</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>22</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffe00000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>c0b5fd98190ef45fbb4301438d095950</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>23</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffff00000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>13001ff5d99806efd25da34f56be854b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>24</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffff80000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3b594c60f5c8277a5113677f94208d82</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>25</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffc0000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>e9c0fc1818e4aa46bd2e39d638f89e05</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>26</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffe0000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f8023ee9c3fdc45a019b4e985c7e1a54</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>27</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffff0000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>35f40182ab4662f3023baec1ee796b57</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>28</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffff8000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3aebbad7303649b4194a6945c6cc3694</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>29</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffc000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a2124bea53ec2834279bed7f7eb0f938</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>30</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffe000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b9fb4399fa4facc7309e14ec98360b0a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>31</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffff000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>c26277437420c5d634f715aea81a9132</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>32</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffff800000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>171a0e1b2dd424f0e089af2c4c10f32f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>33</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffc00000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7cadbe402d1b208fe735edce00aee7ce</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>34</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffe00000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>43b02ff929a1485af6f5c6d6558baa0f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>35</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffff00000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>092faacc9bf43508bf8fa8613ca75dea</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>36</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffff80000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>cb2bf8280f3f9742c7ed513fe802629c</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>37</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffc0000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>215a41ee442fa992a6e323986ded3f68</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>38</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffe0000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f21e99cf4f0f77cea836e11a2fe75fb1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>39</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffff0000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>95e3a0ca9079e646331df8b4e70d2cd6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>40</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffff8000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4afe7f120ce7613f74fc12a01a828073</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>41</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffc000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>827f000e75e2c8b9d479beed913fe678</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>42</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffe000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>35830c8e7aaefe2d30310ef381cbf691</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>43</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffff000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>191aa0f2c8570144f38657ea4085ebe5</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>44</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffff800000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>85062c2c909f15d9269b6c18ce99c4f0</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>45</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffc00000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>678034dc9e41b5a560ed239eeab1bc78</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>46</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffe00000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>c2f93a4ce5ab6d5d56f1b93cf19911c1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>47</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffff00000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1c3112bcb0c1dcc749d799743691bf82</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>48</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffff80000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>00c55bd75c7f9c881989d3ec1911c0d4</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>49</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffc0000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>ea2e6b5ef182b7dff3629abd6a12045f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>50</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffe0000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>22322327e01780b17397f24087f8cc6f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>51</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffff0000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>c9cacb5cd11692c373b2411768149ee7</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>52</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffff8000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a18e3dbbca577860dab6b80da3139256</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>53</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffc000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>79b61c37bf328ecca8d743265a3d425c</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>54</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffe000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d2d99c6bcc1f06fda8e27e8ae3f1ccc7</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>55</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffff000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1bfd4b91c701fd6b61b7f997829d663b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>56</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffff800000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>11005d52f25f16bdc9545a876a63490a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>57</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffc00000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3a4d354f02bb5a5e47d39666867f246a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>58</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffe00000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d451b8d6e1e1a0ebb155fbbf6e7b7dc3</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>59</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffff00000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>6898d4f42fa7ba6a10ac05e87b9f2080</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>60</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffff80000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b611295e739ca7d9b50f8e4c0e754a3f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>61</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffc0000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7d33fc7d8abe3ca1936759f8f5deaf20</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>62</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffe0000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3b5e0f566dc96c298f0c12637539b25c</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>63</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffff0000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f807c3e7985fe0f5a50e2cdb25c5109e</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>64</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffff8000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>41f992a856fb278b389a62f5d274d7e9</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>65</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffc000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>10d3ed7a6fe15ab4d91acbc7d0767ab1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>66</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffe000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>21feecd45b2e675973ac33bf0c5424fc</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>67</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffff000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1480cb3955ba62d09eea668f7c708817</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>68</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffff800000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>66404033d6b72b609354d5496e7eb511</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>69</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffc00000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1c317a220a7d700da2b1e075b00266e1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>70</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffe00000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>ab3b89542233f1271bf8fd0c0f403545</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>71</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffff00000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d93eae966fac46dca927d6b114fa3f9e</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>72</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffff80000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1bdec521316503d9d5ee65df3ea94ddf</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>73</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffc0000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>eef456431dea8b4acf83bdae3717f75f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>74</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffe0000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>06f2519a2fafaa596bfef5cfa15c21b9</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>75</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffff0000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>251a7eac7e2fe809e4aa8d0d7012531a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>76</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffff8000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3bffc16e4c49b268a20f8d96a60b4058</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>77</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffc000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>e886f9281999c5bb3b3e8862e2f7c988</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>78</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffe000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>563bf90d61beef39f48dd625fcef1361</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>79</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffff000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4d37c850644563c69fd0acd9a049325b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>80</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffff800000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b87c921b91829ef3b13ca541ee1130a6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>81</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffc00000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>2e65eb6b6ea383e109accce8326b0393</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>82</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffe00000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>9ca547f7439edc3e255c0f4d49aa8990</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>83</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffff00000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a5e652614c9300f37816b1f9fd0c87f9</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>84</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffff80000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>14954f0b4697776f44494fe458d814ed</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>85</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffc0000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7c8d9ab6c2761723fe42f8bb506cbcf7</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>86</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffe0000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>db7e1932679fdd99742aab04aa0d5a80</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>87</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffff0000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4c6a1c83e568cd10f27c2d73ded19c28</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>88</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffff8000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>90ecbe6177e674c98de412413f7ac915</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>89</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffc000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>90684a2ac55fe1ec2b8ebd5622520b73</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>90</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffe000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7472f9a7988607ca79707795991035e6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>91</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffff000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>56aff089878bf3352f8df172a3ae47d8</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>92</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffff800000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>65c0526cbe40161b8019a2a3171abd23</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>93</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffc00000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>377be0be33b4e3e310b4aabda173f84f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>94</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffe00000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>9402e9aa6f69de6504da8d20c4fcaa2f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>95</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffff00000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>123c1f4af313ad8c2ce648b2e71fb6e1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>96</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffff80000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1ffc626d30203dcdb0019fb80f726cf4</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>97</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffc0000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>76da1fbe3a50728c50fd2e621b5ad885</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>98</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffe0000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>082eb8be35f442fb52668e16a591d1d6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>99</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffff0000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>e656f9ecf5fe27ec3e4a73d00c282fb3</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>100</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffff8000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>2ca8209d63274cd9a29bb74bcd77683a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>101</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffc000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>79bf5dce14bb7dd73a8e3611de7ce026</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>102</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffe000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3c849939a5d29399f344c4a0eca8a576</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>103</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffff000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>ed3c0a94d59bece98835da7aa4f07ca2</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>104</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffff800000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>63919ed4ce10196438b6ad09d99cd795</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>105</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffc00000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7678f3a833f19fea95f3c6029e2bc610</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>106</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffe00000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3aa426831067d36b92be7c5f81c13c56</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>107</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffff00000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>9272e2d2cdd11050998c845077a30ea0</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>108</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffff80000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>088c4b53f5ec0ff814c19adae7f6246c</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>109</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffc0000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4010a5e401fdf0a0354ddbcc0d012b17</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>110</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffe0000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a87a385736c0a6189bd6589bd8445a93</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>111</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffff0000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>545f2b83d9616dccf60fa9830e9cd287</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>112</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffff8000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4b706f7f92406352394037a6d4f4688d</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>113</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffc000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b7972b3941c44b90afa7b264bfba7387</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>114</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffe000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>6f45732cf10881546f0fd23896d2bb60</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>115</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffff000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>2e3579ca15af27f64b3c955a5bfc30ba</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>116</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffff800</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>34a2c5a91ae2aec99b7d1b5fa6780447</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>117</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffc00</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a4d6616bd04f87335b0e53351227a9ee</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>118</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffe00</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7f692b03945867d16179a8cefc83ea3f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>119</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffff00</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3bd141ee84a0e6414a26e7a4f281f8a2</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>120</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffff80</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d1788f572d98b2b16ec5d5f3922b99bc</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>121</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffffc0</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>0833ff6f61d98a57b288e8c3586b85a6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>122</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffffe0</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8568261797de176bf0b43becc6285afb</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>123</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffff0</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f9b0fda0c4a898f5b9e6f661c4ce4d07</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>124</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffff8</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8ade895913685c67c5269f8aae42983e</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>125</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffffc</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>39bde67d5c8ed8a8b1c37eb8fa9f5ac0</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>126</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffffe</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>5c005e72c1418c44f569f2ea33ba54f3</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>127</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffffff</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3f5b8cc9ea855a0afa7347d23e8d664e</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>0</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>80000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3ad78e726c1ec02b7ebfe92b23d9ec34</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>1</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>c0000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>aae5939c8efdf2f04e60b9fe7117b2c2</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>2</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>e0000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f031d4d74f5dcbf39daaf8ca3af6e527</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>3</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>f0000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>96d9fd5cc4f07441727df0f33e401a36</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>4</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>f8000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>30ccdb044646d7e1f3ccea3dca08b8c0</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>5</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fc000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>16ae4ce5042a67ee8e177b7c587ecc82</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>6</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fe000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b6da0bb11a23855d9c5cb1b4c6412e0a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>7</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ff000000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>db4f1aa530967d6732ce4715eb0ee24b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>8</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ff800000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a81738252621dd180a34f3455b4baa2f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>9</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffc00000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>77e2b508db7fd89234caf7939ee5621a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>10</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffe00000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b8499c251f8442ee13f0933b688fcd19</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>11</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fff00000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>965135f8a81f25c9d630b17502f68e53</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>12</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fff80000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8b87145a01ad1c6cede995ea3670454f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>13</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffc0000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8eae3b10a0c8ca6d1d3b0fa61e56b0b2</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>14</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffe0000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>64b4d629810fda6bafdf08f3b0d8d2c5</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>15</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffff0000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d7e5dbd3324595f8fdc7d7c571da6c2a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>16</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffff8000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f3f72375264e167fca9de2c1527d9606</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>17</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffc000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8ee79dd4f401ff9b7ea945d86666c13b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>18</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffe000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>dd35cea2799940b40db3f819cb94c08b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>19</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffff000000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>6941cb6b3e08c2b7afa581ebdd607b87</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>20</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffff800000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>2c20f439f6bb097b29b8bd6d99aad799</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>21</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffc00000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>625d01f058e565f77ae86378bd2c49b3</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>22</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffe00000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>c0b5fd98190ef45fbb4301438d095950</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>23</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffff00000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>13001ff5d99806efd25da34f56be854b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>24</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffff80000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3b594c60f5c8277a5113677f94208d82</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>25</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffc0000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>e9c0fc1818e4aa46bd2e39d638f89e05</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>26</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffe0000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f8023ee9c3fdc45a019b4e985c7e1a54</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>27</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffff0000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>35f40182ab4662f3023baec1ee796b57</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>28</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffff8000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3aebbad7303649b4194a6945c6cc3694</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>29</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffc000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a2124bea53ec2834279bed7f7eb0f938</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>30</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffe000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b9fb4399fa4facc7309e14ec98360b0a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>31</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffff000000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>c26277437420c5d634f715aea81a9132</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>32</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffff800000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>171a0e1b2dd424f0e089af2c4c10f32f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>33</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffc00000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7cadbe402d1b208fe735edce00aee7ce</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>34</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffe00000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>43b02ff929a1485af6f5c6d6558baa0f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>35</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffff00000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>092faacc9bf43508bf8fa8613ca75dea</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>36</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffff80000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>cb2bf8280f3f9742c7ed513fe802629c</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>37</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffc0000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>215a41ee442fa992a6e323986ded3f68</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>38</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffe0000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f21e99cf4f0f77cea836e11a2fe75fb1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>39</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffff0000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>95e3a0ca9079e646331df8b4e70d2cd6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>40</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffff8000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4afe7f120ce7613f74fc12a01a828073</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>41</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffc000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>827f000e75e2c8b9d479beed913fe678</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>42</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffe000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>35830c8e7aaefe2d30310ef381cbf691</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>43</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffff000000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>191aa0f2c8570144f38657ea4085ebe5</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>44</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffff800000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>85062c2c909f15d9269b6c18ce99c4f0</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>45</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffc00000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>678034dc9e41b5a560ed239eeab1bc78</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>46</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffe00000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>c2f93a4ce5ab6d5d56f1b93cf19911c1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>47</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffff00000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1c3112bcb0c1dcc749d799743691bf82</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>48</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffff80000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>00c55bd75c7f9c881989d3ec1911c0d4</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>49</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffc0000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>ea2e6b5ef182b7dff3629abd6a12045f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>50</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffe0000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>22322327e01780b17397f24087f8cc6f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>51</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffff0000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>c9cacb5cd11692c373b2411768149ee7</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>52</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffff8000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a18e3dbbca577860dab6b80da3139256</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>53</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffc000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>79b61c37bf328ecca8d743265a3d425c</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>54</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffe000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d2d99c6bcc1f06fda8e27e8ae3f1ccc7</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>55</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffff000000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1bfd4b91c701fd6b61b7f997829d663b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>56</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffff800000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>11005d52f25f16bdc9545a876a63490a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>57</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffc00000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3a4d354f02bb5a5e47d39666867f246a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>58</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffe00000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d451b8d6e1e1a0ebb155fbbf6e7b7dc3</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>59</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffff00000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>6898d4f42fa7ba6a10ac05e87b9f2080</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>60</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffff80000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b611295e739ca7d9b50f8e4c0e754a3f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>61</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffc0000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7d33fc7d8abe3ca1936759f8f5deaf20</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>62</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffe0000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3b5e0f566dc96c298f0c12637539b25c</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>63</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffff0000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f807c3e7985fe0f5a50e2cdb25c5109e</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>64</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffff8000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>41f992a856fb278b389a62f5d274d7e9</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>65</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffc000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>10d3ed7a6fe15ab4d91acbc7d0767ab1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>66</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffe000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>21feecd45b2e675973ac33bf0c5424fc</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>67</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffff000000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1480cb3955ba62d09eea668f7c708817</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>68</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffff800000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>66404033d6b72b609354d5496e7eb511</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>69</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffc00000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1c317a220a7d700da2b1e075b00266e1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>70</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffe00000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>ab3b89542233f1271bf8fd0c0f403545</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>71</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffff00000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d93eae966fac46dca927d6b114fa3f9e</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>72</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffff80000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1bdec521316503d9d5ee65df3ea94ddf</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>73</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffc0000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>eef456431dea8b4acf83bdae3717f75f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>74</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffe0000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>06f2519a2fafaa596bfef5cfa15c21b9</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>75</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffff0000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>251a7eac7e2fe809e4aa8d0d7012531a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>76</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffff8000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3bffc16e4c49b268a20f8d96a60b4058</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>77</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffc000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>e886f9281999c5bb3b3e8862e2f7c988</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>78</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffe000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>563bf90d61beef39f48dd625fcef1361</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>79</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffff000000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4d37c850644563c69fd0acd9a049325b</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>80</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffff800000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b87c921b91829ef3b13ca541ee1130a6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>81</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffc00000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>2e65eb6b6ea383e109accce8326b0393</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>82</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffe00000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>9ca547f7439edc3e255c0f4d49aa8990</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>83</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffff00000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a5e652614c9300f37816b1f9fd0c87f9</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>84</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffff80000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>14954f0b4697776f44494fe458d814ed</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>85</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffc0000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7c8d9ab6c2761723fe42f8bb506cbcf7</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>86</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffe0000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>db7e1932679fdd99742aab04aa0d5a80</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>87</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffff0000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4c6a1c83e568cd10f27c2d73ded19c28</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>88</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffff8000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>90ecbe6177e674c98de412413f7ac915</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>89</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffc000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>90684a2ac55fe1ec2b8ebd5622520b73</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>90</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffe000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7472f9a7988607ca79707795991035e6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>91</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffff000000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>56aff089878bf3352f8df172a3ae47d8</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>92</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffff800000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>65c0526cbe40161b8019a2a3171abd23</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>93</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffc00000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>377be0be33b4e3e310b4aabda173f84f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>94</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffe00000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>9402e9aa6f69de6504da8d20c4fcaa2f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>95</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffff00000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>123c1f4af313ad8c2ce648b2e71fb6e1</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>96</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffff80000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>1ffc626d30203dcdb0019fb80f726cf4</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>97</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffc0000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>76da1fbe3a50728c50fd2e621b5ad885</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>98</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffe0000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>082eb8be35f442fb52668e16a591d1d6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>99</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffff0000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>e656f9ecf5fe27ec3e4a73d00c282fb3</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>100</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffff8000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>2ca8209d63274cd9a29bb74bcd77683a</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>101</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffc000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>79bf5dce14bb7dd73a8e3611de7ce026</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>102</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffe000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3c849939a5d29399f344c4a0eca8a576</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>103</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffff000000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>ed3c0a94d59bece98835da7aa4f07ca2</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>104</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffff800000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>63919ed4ce10196438b6ad09d99cd795</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>105</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffc00000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7678f3a833f19fea95f3c6029e2bc610</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>106</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffe00000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3aa426831067d36b92be7c5f81c13c56</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>107</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffff00000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>9272e2d2cdd11050998c845077a30ea0</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>108</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffff80000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>088c4b53f5ec0ff814c19adae7f6246c</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>109</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffc0000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4010a5e401fdf0a0354ddbcc0d012b17</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>110</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffe0000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a87a385736c0a6189bd6589bd8445a93</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>111</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffff0000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>545f2b83d9616dccf60fa9830e9cd287</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>112</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffff8000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>4b706f7f92406352394037a6d4f4688d</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>113</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffc000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>b7972b3941c44b90afa7b264bfba7387</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>114</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffe000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>6f45732cf10881546f0fd23896d2bb60</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>115</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffff000</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>2e3579ca15af27f64b3c955a5bfc30ba</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>116</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffff800</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>34a2c5a91ae2aec99b7d1b5fa6780447</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>117</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffc00</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>a4d6616bd04f87335b0e53351227a9ee</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>118</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffe00</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>7f692b03945867d16179a8cefc83ea3f</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>119</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffff00</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3bd141ee84a0e6414a26e7a4f281f8a2</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>120</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffff80</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>d1788f572d98b2b16ec5d5f3922b99bc</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>121</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffffc0</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>0833ff6f61d98a57b288e8c3586b85a6</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>122</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffffe0</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8568261797de176bf0b43becc6285afb</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>123</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffff0</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>f9b0fda0c4a898f5b9e6f661c4ce4d07</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>124</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffff8</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>8ade895913685c67c5269f8aae42983e</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>125</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffffc</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>39bde67d5c8ed8a8b1c37eb8fa9f5ac0</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>126</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>fffffffffffffffffffffffffffffffe</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>5c005e72c1418c44f569f2ea33ba54f3</ciphertext>
+  </katVectorWithIV>
+
+  <katVectorWithIV>
+    <index>127</index>
+    <key>00000000000000000000000000000000</key>
+    <iv>ffffffffffffffffffffffffffffffff</iv>
+    <plaintext>00000000000000000000000000000000</plaintext>
+    <ciphertext>3f5b8cc9ea855a0afa7347d23e8d664e</ciphertext>
+  </katVectorWithIV>
+
+</body>
+</testFile>
+

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<testFile
+  xmlns="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat
+                      ../../../../xml/schema/block-cipher_kat.xsd">
+<header>
+  <convertDate>2017-08-08T10:51:42+02:00</convertDate>
+  <originalFilename>ECBGFSbox192.rsp</originalFilename>
+  <originalSha256>885364c3f424477e5b878b13c4b3ffcf11f4501cb1223cf25d06180915d4f070</originalSha256>
+  <originalSha512>5c8f2917a3f817eae95f82aa70cb1d41b981a37830fe2cf6d838f3280487f79cd3a3b09f00845f7eead9d13a2834703ad137104bdef7069092a28fd46526486b</originalSha512>
+  <comment>CAVS 11.1</comment>
+  <comment>Config info for aes_values</comment>
+  <comment>AESVS GFSbox test data for ECB</comment>
+  <comment>State : Encrypt and Decrypt</comment>
+  <comment>Key Length : 192</comment>
+  <comment>Generated on Fri Apr 22 15:11:28 2011</comment>
+</header>
+
+<body>
+
+  <katVectorWithoutIV>
+    <index>0</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>1b077a6af4b7f98229de786d7516b639</plaintext>
+    <ciphertext>275cfc0413d8ccb70513c3859b1d0f72</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>1</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>9c2d8842e5f48f57648205d39a239af1</plaintext>
+    <ciphertext>c9b8135ff1b5adc413dfd053b21bd96d</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>2</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>bff52510095f518ecca60af4205444bb</plaintext>
+    <ciphertext>4a3650c3371ce2eb35e389a171427440</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>3</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>51719783d3185a535bd75adc65071ce1</plaintext>
+    <ciphertext>4f354592ff7c8847d2d0870ca9481b7c</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>4</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>26aa49dcfe7629a8901a69a9914e6dfd</plaintext>
+    <ciphertext>d5e08bf9a182e857cf40b3a36ee248cc</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>5</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>941a4773058224e1ef66d10e0a6ee782</plaintext>
+    <ciphertext>067cd9d3749207791841562507fa9626</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>0</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>1b077a6af4b7f98229de786d7516b639</plaintext>
+    <ciphertext>275cfc0413d8ccb70513c3859b1d0f72</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>1</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>9c2d8842e5f48f57648205d39a239af1</plaintext>
+    <ciphertext>c9b8135ff1b5adc413dfd053b21bd96d</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>2</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>bff52510095f518ecca60af4205444bb</plaintext>
+    <ciphertext>4a3650c3371ce2eb35e389a171427440</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>3</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>51719783d3185a535bd75adc65071ce1</plaintext>
+    <ciphertext>4f354592ff7c8847d2d0870ca9481b7c</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>4</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>26aa49dcfe7629a8901a69a9914e6dfd</plaintext>
+    <ciphertext>d5e08bf9a182e857cf40b3a36ee248cc</ciphertext>
+  </katVectorWithoutIV>
+
+  <katVectorWithoutIV>
+    <index>5</index>
+    <key>000000000000000000000000000000000000000000000000</key>
+    <plaintext>941a4773058224e1ef66d10e0a6ee782</plaintext>
+    <ciphertext>067cd9d3749207791841562507fa9626</ciphertext>
+  </katVectorWithoutIV>
+
+</body>
+</testFile>
+

@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<testFile
+  xmlns="https://testvectors.cryptolib.org/xml-schema/v0.1/hash-function_monte" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://testvectors.cryptolib.org/xml-schema/v0.1/hash-function_monte
+                      ../../../../../xml/schema/hash-function_monte.xsd">
+<header>
+  <convertDate>2017-08-08T11:21:15+02:00</convertDate>
+  <originalFilename>SHA1Monte.rsp</originalFilename>
+  <originalSha256>d458fa7e39095b4e292a75b0cd224f90b72dc801a63ad2c0d75b8f10d745ab6d</originalSha256>
+  <originalSha512>7731e447845a73457a0e0872f8ea03e262262999231768e8e73ca7c98ab56ca4be5c585e8f14224bd792f7256e946aa9e6083da8035e521db6afdd0bc94661af</originalSha512>
+  <comment>CAVS 11.1</comment>
+  <comment>"SHA-1 Monte" information for "sha_values"</comment>
+  <comment>SHA tests are configured for BYTE oriented implementations</comment>
+  <comment>Generated on Wed May 11 17:26:02 2011</comment>
+</header>
+
+<body>
+
+  <monteVector>
+  <seed>
+    dd4df644eaf3d85bace2b21accaa22b28821f5cd
+  </seed>
+  <digest count="0">
+    11f5c38b4479d4ad55cb69fadf62de0b036d5163
+  </digest>
+
+  <digest count="1">
+    5c26de848c21586bec36995809cb02d3677423d9
+  </digest>
+
+  <digest count="2">
+    453b5fcf263d01c891d7897d4013990f7c1fb0ab
+  </digest>
+
+  <digest count="3">
+    36d0273ae363f992bbc313aa4ff602e95c207be3
+  </digest>
+
+  <digest count="4">
+    d1c65e9ac55727fbf30eaf5f00cc22b9bab81a2c
+  </digest>
+
+  <digest count="5">
+    2c477cd77e5749da7fc4e5ca7eed77166e8ceae6
+  </digest>
+
+  <digest count="6">
+    60b11211137f46863501a32a435976eabd4532f3
+  </digest>
+
+  <digest count="7">
+    0894f4f012a1e5344044e0ecfa6f078382064602
+  </digest>
+
+  <digest count="8">
+    06b6222855cae9bed77e9e3050d164a98286ea5f
+  </digest>
+
+  <digest count="9">
+    e2872694d3d23a68a24419c35bd9ac9006248a8f
+  </digest>
+
+  <digest count="10">
+    ea43595eb1cff3a7e045c5868d0775b4409b14a3
+  </digest>
+
+  <digest count="11">
+    05a9e94fdc792a61aa60bcd37592acee1f983280
+  </digest>
+
+  <digest count="12">
+    7d11aa9413cd89a387a5c0f9aa5ce541be2aa6e8
+  </digest>
+
+  <digest count="13">
+    37297d053aaa4a845cc9ce0c0165644ab8d0e00b
+  </digest>
+
+  <digest count="14">
+    d9dcde396d69748c1fe357f8b662a27ce89082c8
+  </digest>
+
+  <digest count="15">
+    737a484499b6858b14e656c328979e8aa56b0a43
+  </digest>
+
+  <digest count="16">
+    4e9c8b3bce910432ac2ad17d51e6b9ec4f92c1ad
+  </digest>
+
+  <digest count="17">
+    62325b9a7cebcc6da3bfe781d84eb53a6eb7b019
+  </digest>
+
+  <digest count="18">
+    4710670e071609d470f7d628d8ea978dfb9234ac
+  </digest>
+
+  <digest count="19">
+    23baee80eee052f3263ac26dd12ea6504a5bd234
+  </digest>
+
+  <digest count="20">
+    9451efb9c9586a403747acfa3ec74d359bb9d7ff
+  </digest>
+
+  <digest count="21">
+    37e9d7c81b79f090c8e05848050936c64a1bd662
+  </digest>
+
+  <digest count="22">
+    a6489ff37141f7a86dd978f685fdd4789d1993dc
+  </digest>
+
+  <digest count="23">
+    39650d32501dfcee212d0de10af9db47e4e5af65
+  </digest>
+
+  <digest count="24">
+    cd4ea3474e046b281da5a4bf69fd873ef8d568d6
+  </digest>
+
+  <digest count="25">
+    0d7b518c07c6da877eee35301a99c7563f1840df
+  </digest>
+
+  <digest count="26">
+    68a70ae466532f7f61af138889c0d3f9670f3590
+  </digest>
+
+  <digest count="27">
+    c0222aae5fd2b9eff143ac93c4493abe5c8806af
+  </digest>
+
+  <digest count="28">
+    d2efc5aa0b29db15f3e5de82aaa0a8ce888ffb2f
+  </digest>
+
+  <digest count="29">
+    eec4f55d02c627dcee36b5b5606603bdc9a94a26
+  </digest>
+
+  <digest count="30">
+    0e706fb1a1fa26aab74efcef57ab6a49c07ca7bd
+  </digest>
+
+  <digest count="31">
+    2ea392ca8043686424f7e9500edfb9e9297943f7
+  </digest>
+
+  <digest count="32">
+    74737ef257b32a4cb9428c866b65bee62ccbe653
+  </digest>
+
+  <digest count="33">
+    df3e86e49a0429fa81f553b04b9fc003510e9a51
+  </digest>
+
+  <digest count="34">
+    79c3049944fbf8b80dadadc7f5174e5cfdf996de
+  </digest>
+
+  <digest count="35">
+    f25e2eca4cfb6da8e8b7b62f581672fab80754fa
+  </digest>
+
+  <digest count="36">
+    76509239d9fd6c6f050c0d9b3777b5645e4d4c70
+  </digest>
+
+  <digest count="37">
+    cf4bb3e1f330c862e239d9b010bd842f302bd227
+  </digest>
+
+  <digest count="38">
+    4eeac7ab2ac9e4c81ed1a93a300b2af75beddb08
+  </digest>
+
+  <digest count="39">
+    46443ba72a64fff4b5252fbac9ef93c2949f8585
+  </digest>
+
+  <digest count="40">
+    5e9c42482343a54aadb11ab00c2e00cbe25ec91a
+  </digest>
+
+  <digest count="41">
+    93acee1977128f2a4218678b32e2844f23eb526b
+  </digest>
+
+  <digest count="42">
+    226065d299b2d6c582d386897b93f2adf14de00b
+  </digest>
+
+  <digest count="43">
+    672fed0d90c21d4ec0111a7284bcf1bbd72af9bd
+  </digest>
+
+  <digest count="44">
+    90d642f12f28cb3dad7daad84cf0f94ded1137ae
+  </digest>
+
+  <digest count="45">
+    4a2815b58ffc858e5e7e9e6106765458d2af4ec3
+  </digest>
+
+  <digest count="46">
+    29fa3679032421b78b7a08c54766c1592f6739c1
+  </digest>
+
+  <digest count="47">
+    19f4e30393eb66c6e200744fa8999d224e6df173
+  </digest>
+
+  <digest count="48">
+    30650026be77212088ab50438e04b4b8e3761977
+  </digest>
+
+  <digest count="49">
+    993d0e135bcd598fa673c6f19251bcbde18b7b34
+  </digest>
+
+  <digest count="50">
+    c9eaf20b473219a70efe85940620426c6ff6f4a4
+  </digest>
+
+  <digest count="51">
+    6325d0b83c308bd42854ce69446e85ba36348d7d
+  </digest>
+
+  <digest count="52">
+    2fb354f8a68030efb747f78812060a9c05e92164
+  </digest>
+
+  <digest count="53">
+    a7e33bd16f770c17e8818ad5a5fc4fee673eae56
+  </digest>
+
+  <digest count="54">
+    ff23e7105bc9f4dad0fb9c6519d1eae16439a5d6
+  </digest>
+
+  <digest count="55">
+    a31aca821e163213cd2ae84cf56c1134daa4a621
+  </digest>
+
+  <digest count="56">
+    94ab9cfd4cf9bf2e4409dbcdc9ef2c8b611cc69d
+  </digest>
+
+  <digest count="57">
+    c0194064ce48dde771b7871efa86a4a6e87eec76
+  </digest>
+
+  <digest count="58">
+    f1a9065e3e7f98753c6f833f5ffe74133f6b887f
+  </digest>
+
+  <digest count="59">
+    b8b3cd6ca1d5b5610e43212f8df75211aaddcf96
+  </digest>
+
+  <digest count="60">
+    33c3a8d739cc2f83be597aa11c43e2ad6f0d2436
+  </digest>
+
+  <digest count="61">
+    4f5c67e5110f3663b7aa88759dbba6fa82f2d705
+  </digest>
+
+  <digest count="62">
+    b1ebc87c7b2b8fe73e7a882d3f4f0492946e0d7c
+  </digest>
+
+  <digest count="63">
+    01566616fe4a8c7cf22f21031ac6ea7fb7ce15db
+  </digest>
+
+  <digest count="64">
+    5650f3517a393792781d23b4c9d360bf8bd31d65
+  </digest>
+
+  <digest count="65">
+    a4fdbd24cb4a328b898b804b103caa98baedd3fa
+  </digest>
+
+  <digest count="66">
+    0cf01eecec4b85aa39f40aa9b4dce208d68eb17b
+  </digest>
+
+  <digest count="67">
+    ae9ac147bab7c10609abe6e931a5ab087a41dc5a
+  </digest>
+
+  <digest count="68">
+    c0328145ce63fb0aceeb414e791d2be92009b1ec
+  </digest>
+
+  <digest count="69">
+    60343e5fb7eee00d31ea507b820ddbb7ef405dc7
+  </digest>
+
+  <digest count="70">
+    e0b97cd9149ff9955b6a35b3a79ecb3bdbd2a5a5
+  </digest>
+
+  <digest count="71">
+    4e4fdcd382ae0f3f4fbda5fd934eee0d6ad37df5
+  </digest>
+
+  <digest count="72">
+    9d97dd237d193482cf3ab862a38843762e69077f
+  </digest>
+
+  <digest count="73">
+    2bc927d17ff2f8a844f6f36a944a64d73d431192
+  </digest>
+
+  <digest count="74">
+    b91200306b769aab18e5e411b5bd5e7bce1cc80e
+  </digest>
+
+  <digest count="75">
+    c47493a666085e1b7a75618761a80c402f46546d
+  </digest>
+
+  <digest count="76">
+    31355869b80ff84fac239db694ada07d3be26b15
+  </digest>
+
+  <digest count="77">
+    1a2022f6330bf96f025cb7d8f0201a7d70b3b58e
+  </digest>
+
+  <digest count="78">
+    0f60d7c5ad49efce939c3a27da9973f7f1747848
+  </digest>
+
+  <digest count="79">
+    ceada087801616fc6c08cfa469658f3dc5239ca7
+  </digest>
+
+  <digest count="80">
+    4ad0cf9181122b06df714397bd5366aa90bfc9fa
+  </digest>
+
+  <digest count="81">
+    ac6404e6b9d5c0fa17fa77fd39850f22b76ecd83
+  </digest>
+
+  <digest count="82">
+    f0658218adffb9ee9328577854b6387393957a3a
+  </digest>
+
+  <digest count="83">
+    6fe9992747897389957b9a91467a4ec983829ab6
+  </digest>
+
+  <digest count="84">
+    74320b3ddde6dbfbdad3ad29a7695f5a275b2105
+  </digest>
+
+  <digest count="85">
+    2009ea5d6452f51d12477740e374e0e313134779
+  </digest>
+
+  <digest count="86">
+    7dbf33d7125709f101fea4ec03436ab95a900c28
+  </digest>
+
+  <digest count="87">
+    0c05b78e324cb265bd6adc7452249eaa85bccb3f
+  </digest>
+
+  <digest count="88">
+    10c1b9b2de8a9050fb6f4b10a99f7e1e47159f25
+  </digest>
+
+  <digest count="89">
+    20072c1f691142d9b83a090dd01f446b4e325a1c
+  </digest>
+
+  <digest count="90">
+    ffcb6a1525f20803cfc79deb40addfd3e7b2f05c
+  </digest>
+
+  <digest count="91">
+    bdcbb4ed636e244bb0fe6af4bc53998936df4ebc
+  </digest>
+
+  <digest count="92">
+    f58ccbc65a2ffa5b35274dd0ceb4ea70eb73c26a
+  </digest>
+
+  <digest count="93">
+    fbe95ac75e4b9cccd1a5debf757fa1a502d07944
+  </digest>
+
+  <digest count="94">
+    a8babac55950dba4993601d35adff874a2b9bb2a
+  </digest>
+
+  <digest count="95">
+    594db79de71c7651e9eef2f08bb7be3d26b6ee99
+  </digest>
+
+  <digest count="96">
+    63377d45d0e2d0c987bebe8086c76a5e8b63a14b
+  </digest>
+
+  <digest count="97">
+    cd1e7a192130866aa87fd1c8b43e9b7a0eab7615
+  </digest>
+
+  <digest count="98">
+    b3c69ad5dbdd34b7b45b2a89dad72f4cf1d8fd73
+  </digest>
+
+  <digest count="99">
+    01b7be5b70ef64843a03fdbb3b247a6278d2cbe1
+  </digest>
+
+  </monteVector>
+</body>
+</testFile>
+
