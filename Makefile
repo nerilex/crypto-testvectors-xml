@@ -10,6 +10,8 @@ TARGET_DIR = xml/testvectors
 XML_TARGETS = $(patsubst raw/%.rsp,$(TARGET_DIR)/%.xml, $(RSP_SRC))
 
 XML_VALIDATE_TARGETS = $(addsuffix _VALIDATE,$(XML_TARGETS))
+SCHEMA_DIR=xml/schema
+SCHEMAS=$(wildcard $(SCHEMA_DIR)/*.xsd)
 
 .PHONY: all clean validate
 
@@ -31,14 +33,8 @@ $(TARGET_DIR)/sha2/%Monte.xml: raw/sha2/%Monte.rsp convert_sha_monte_to_xml.sh
 	@mkdir -p $$(dirname $@)
 	bash ./convert_sha_monte_to_xml.sh $< $@
 
-$(TARGET_DIR)/aes/%.xml_VALIDATE: $(TARGET_DIR)/aes/%.xml xml/schema/block-cipher_kat.xsd
-	@xmllint --noout --schema xml/schema/block-cipher_kat.xsd $<
-
-$(TARGET_DIR)/sha2/%Msg.xml_VALIDATE: $(TARGET_DIR)/sha2/%Msg.xml xml/schema/hash-function_kat.xsd
-	@xmllint --noout --schema xml/schema/hash-function_kat.xsd $<
-
-$(TARGET_DIR)/sha2/%Monte.xml_VALIDATE: $(TARGET_DIR)/sha2/%Monte.xml xml/schema/hash-function_monte.xsd
-	@xmllint --noout --schema xml/schema/hash-function_monte.xsd $<
+$(TARGET_DIR)/%.xml_VALIDATE: $(TARGET_DIR)/%.xml $(SCHEMAS)
+	@xmllint --noout --schema xml/schema/test-vectors.xsd $<
 
 clean:
 	rm -f $(XML_TARGETS)

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:import 
+  namespace="https://testvectors.cryptolib.org/xml-schema/v0.1/block-cipher_kat"
+  schemaLocation="block-cipher_kat.xsd"
+/>
+
+<xs:import 
+  namespace="https://testvectors.cryptolib.org/xml-schema/v0.1/hash-function_kat"
+  schemaLocation="hash-function_kat.xsd"
+/>
+
+<xs:import 
+  namespace="https://testvectors.cryptolib.org/xml-schema/v0.1/hash-function_monte"
+  schemaLocation="hash-function_monte.xsd"
+/>
+
+
+</xs:schema>
